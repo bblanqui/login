@@ -91,7 +91,7 @@ try {
  </body>
 </html>';
     $mail->Body =$cuerpo;
-    $mail->AltBody = 'Thello';
+    $mail->AltBody = 'hello';
 
     $mail->send();
     echo json_encode ("registrado correctamente");
